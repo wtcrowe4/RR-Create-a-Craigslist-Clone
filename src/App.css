@@ -29,6 +29,11 @@ img {
   border: 1px solid black;
 }
 
+.postings {
+  grid-area: postings;
+  border: 1px solid black;
+}
+
 .posting {
   margin: 1vw;
   grid-area: posting;
@@ -44,7 +49,7 @@ img {
   border: 1px solid black;
 }
 
-.sideBar {
+.sidebar {
   grid-area: sidebar;
   border: 1px solid black;
 }
