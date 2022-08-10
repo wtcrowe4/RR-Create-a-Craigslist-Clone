@@ -7,7 +7,8 @@ const Posting = (props) => {
     let postList = craigPostings.postings.map((posting, index) => {
         return (
             <div className="posting">
-                <Posting data={posting} key={index}/>
+                {/* <Posting data={posting} key={index}/> */}
+                {posting.title}
             </div>
         );
     })
